@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - entry project
+* main - entry project
 *
 * Returns: 0 after printing the function
 */
