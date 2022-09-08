@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - entry project
+* main - Entry project
 *
 * Returns: Always 0 (Success)
 */
