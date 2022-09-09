@@ -13,7 +13,7 @@ int n;
 srand(time(0));
 n = rand(0) - RAND_MAX / 2;
 
-if (n==0)
+if (n == 0)
 {
 printf("%i is zero\n", n);
 }
@@ -30,3 +30,4 @@ printf("% i is positive\n", n);
 
 return (0);
 }
+
