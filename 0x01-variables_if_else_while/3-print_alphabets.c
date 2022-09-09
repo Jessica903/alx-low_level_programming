@@ -10,20 +10,21 @@
 int main(void)
 
 {
-char alphabet;
+char_lower case;
+char_upper case;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (lower_case = 'a'; lower case <= 'z'; lower_case++)
 {
-	if (alphabet == 'q')
-		continue;
-
-	else if (alphabet == 'e')
-		continue
-
-		putchar (alphabet);
+putchar(lower_case);
 }
 
-putchar ('\n\');
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+{
+putchar(upper_case);
+}
+
+
+putchar('\n\');
 
 return (0);
 
