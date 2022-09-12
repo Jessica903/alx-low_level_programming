@@ -6,6 +6,7 @@
 *
 * Return: Always 0 (Success)
 */
+/* Betty style*/
 int main(void)
 {
 int n;
