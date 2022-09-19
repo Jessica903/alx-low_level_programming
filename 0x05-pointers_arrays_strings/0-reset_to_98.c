@@ -2,9 +2,9 @@
 
 /**
 * reset_to_98 - resets the value of the given integer to 98
-* @n: parameter 
+* @n: parameter
 *Return : nothing
-**/
+**s
 
 void reset_to_98(int *n)
 {
