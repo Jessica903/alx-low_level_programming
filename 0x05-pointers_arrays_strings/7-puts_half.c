@@ -5,12 +5,12 @@
  *
  * @str: this is the input string
  */
-void puts_half(char * str)
+void puts_half(char *str)
 {
 	int index, half;
 
 	index = 0;
-	while (str[index] != '\0')
+	while (str(index) != '\0')
 			index++;
 
 	half = index / 2;
@@ -20,8 +20,8 @@ void puts_half(char * str)
 
 	while (half < index)
 	{
-		puts_char(str [half]);
+		_putchar(str (half));
 			half++;
 	}
-	puts_char('\n');
+	_putchar('\n');
 }
