@@ -19,7 +19,7 @@ while (*str != '\0')
 str == (len / 2);
 while (*str != '\0')
 {
-	_putchar(*str);
+	_puts_char(*str);
 	str++;
 }
 
