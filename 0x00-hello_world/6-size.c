@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the sizeof many variable types
+ * main - Prints the sizeof many variable types
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,9 +14,9 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %d(bytes)\n", sizeof(a));
-	printf("Size of an int: %d(bytes)\n", sizeof(b));
-	printf("Size of long a int: %d(bytes)\n", sizeof(c));
+	printf("Size of a char: %d (byte)\n", sizeof(a));
+	printf("Size of an int: %d (bytes)\n", sizeof(b));
+	printf("Size of long a int: %d (bytes)\n", sizeof(c));
 	printf("Size of a long long int: %d (bytes)\n", sizeof(d));
 	printf("Size of a float: %d (bytes)\n", sizeof(e));
 	return (0);
